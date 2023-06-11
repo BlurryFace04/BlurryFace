@@ -16,7 +16,7 @@ export default function Home() {
 						<Link
 							key={item.href}
 							href={item.href}
-							className="text-sm duration-500 text-zinc-500 hover:text-zinc-300"
+							className="text-base duration-500 text-zinc-500 hover:text-zinc-300"
 						>
 							{item.name}
 						</Link>
@@ -34,27 +34,8 @@ export default function Home() {
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
-				<h2 className="text-sm text-zinc-500 ">
-					Hi, my name is Arnav, I'm building serverless and open source
-					solutions at{" "}
-					<Link
-						target="_blank"
-						href="https://upstash.com"
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						Upstash
-					</Link>
-
-					<br />
-					and working on{" "}
-					<Link
-						target="_blank"
-						href="https://planetfall.io"
-						className="underline duration-500 hover:text-zinc-300"
-					>
-						planetfall.io
-					</Link>{" "}
-					at night.
+				<h2 className="text-base text-zinc-500 ">
+					Hey there! I'm Arnav, a self-taught blockchain developer and a proud college dropout. I started my journey in computer science at symbiosis university of applied sciences, but soon realized that I learn best when I'm working on real-world projects and teaching myself. So, I took the plunge and decided to focus full-time on what I love: diving into all sorts of tech challenges, from blockchain to just about anything in computer science. Take a look around my site to see the cool stuff I've been working on!
 				</h2>
 			</div>
 		</div>
