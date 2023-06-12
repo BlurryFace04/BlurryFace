@@ -4,8 +4,8 @@ import Particles from "./components/particles";
 
 export default function Home() {
     const links = [
-//         {name: "Projects", href: "/projects"},
-//         {name: "Contact Me", href: "/contact"},
+        // {name: "Projects", href: "/projects"},
+        // {name: "Contact Me", href: "/contact"},
         {name: "Projects", href: "https://github.com/BlurryFace04"},
         {name: "Contact Me", href: "https://github.com/BlurryFace04"},
     ];
@@ -49,7 +49,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="w-1/5 ml-auto">
-                    <img src="/Blurry.png" alt="Arnav Jain" className="w-full h-auto"/>
+                    <img src="/Blurry.png" alt="Blurry Face" className="w-full h-auto"/>
                 </div>
             </div>
             <Particles className="absolute inset-0 -z-10" quantity={100}/>
