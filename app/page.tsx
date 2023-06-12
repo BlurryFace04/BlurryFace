@@ -14,18 +14,6 @@ export default function Home() {
             <div className="my-16 flex justify-between items-center space-x-4 w-11/12 mx-auto">
                 <div className="flex flex-col items-center justify-center w-1/12"></div>
                 <div className="flex flex-col items-center justify-center w-3/5">
-                    {/*<nav className="mb-4">*/}
-                    {/*    <div className="relative inline-flex before:absolute before:inset-0">*/}
-                    {/*        <Link href={links[0].href}*/}
-                    {/*              className="border-zinc-600 px-4 py-1 text-base font-medium inline-flex items-center justify-center border border-transparent rounded-full  text-zinc-300 hover:text-white transition duration-150 ease-in-out w-full group relative before:absolute before:inset-0 before:bg-zinc-800/40 before:rounded-full before:pointer-events-none">*/}
-                    {/*            <span className="relative inline-flex items-center">*/}
-                    {/*                {links[0].name}*/}
-                    {/*                <span*/}
-                    {/*                    className="text-sm font-light text-zinc-400 tracking-normal text-primary-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>*/}
-                    {/*            </span>*/}
-                    {/*        </Link>*/}
-                    {/*    </div>*/}
-                    {/*</nav>*/}
                     <h1 className="pb-4 font-extrabold tracking-tight text-transparent text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r text-zinc-200 aos-init aos-animate">
                         Arnav Jain
                     </h1>
