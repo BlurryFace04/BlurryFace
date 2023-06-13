@@ -4,8 +4,7 @@ import Particles from "./components/particles";
 
 export default function Home() {
     const links = [
-        // {name: "Projects", href: "/projects"},
-        {name: "Projects", href: "https://github.com/BlurryFace04/"},
+        {name: "Projects", href: "/projects"},
         {name: "Contact Me", href: "/contact"},
     ];
 
