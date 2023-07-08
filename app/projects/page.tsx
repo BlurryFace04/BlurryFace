@@ -28,7 +28,8 @@ export default async function ProjectsPage() {
     const top4 = allProjects.find((project) => project.slug === "KeyWhisperer")!;
     const top5 = allProjects.find((project) => project.slug === "intrusionX")!;
     const top6 = allProjects.find((project) => project.slug === "WhereaboutsWiz")!;
-    const top7 = allProjects.find((project) => project.slug === "CyberTunnel")!;
+    const top7 = allProjects.find((project) => project.slug === "WeatherWhisperer")!;
+    const top8 = allProjects.find((project) => project.slug === "CyberTunnel")!;
     const sorted = allProjects
         .filter((p) => p.published)
         .filter(
@@ -122,7 +123,7 @@ export default async function ProjectsPage() {
                         ))}
                     </div>
                     <div className="grid grid-cols-1 gap-4">
-                        {[top5, top7].map((project) => (
+                        {[top5, top7, top8].map((project) => (
                             <Card key={project.slug}>
                                 <Article project={project} views={views[project.slug] ?? 0}/>
                             </Card>
