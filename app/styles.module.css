@@ -1,6 +1,6 @@
 .container {
     height: 100vh;
-    width: 90%;
+    width: 80%;
 
     @media (max-width: 944px) {
         flex-direction: column-reverse;
@@ -9,7 +9,7 @@
 }
 
 .image {
-    width: 240px;
+    width: 450px;
 
     @media (max-width: 944px) {
         width: 150px;
@@ -38,6 +38,8 @@
 }
 
 .paragraph {
+    
+
     @media (max-width: 910px) {
         font-size: 18px;
     }
