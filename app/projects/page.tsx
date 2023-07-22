@@ -21,15 +21,16 @@ export default async function ProjectsPage() {
     }, {} as Record<string, number>);
 
     const featured = allProjects.find(
-        (project) => project.slug === "PAN-Card-Verification",
+        (project) => project.slug === "Pinata-Connection",
     )!;
     const top2 = allProjects.find((project) => project.slug === "RepoRadar")!;
-    const top3 = allProjects.find((project) => project.slug === "EspressoFlow")!;
+    const top3 = allProjects.find((project) => project.slug === "PAN-Card-Verification")!;
     const top4 = allProjects.find((project) => project.slug === "KeyWhisperer")!;
     const top5 = allProjects.find((project) => project.slug === "intrusionX")!;
-    const top6 = allProjects.find((project) => project.slug === "WhereaboutsWiz")!;
-    const top7 = allProjects.find((project) => project.slug === "WeatherWhisperer")!;
-    const top8 = allProjects.find((project) => project.slug === "CyberTunnel")!;
+    const top6 = allProjects.find((project) => project.slug === "EspressoFlow")!;
+    const top7 = allProjects.find((project) => project.slug === "WhereaboutsWiz")!;
+    const top8 = allProjects.find((project) => project.slug === "WeatherWhisperer")!;
+    const top9 = allProjects.find((project) => project.slug === "CyberTunnel")!;
     const sorted = allProjects
         .filter((p) => p.published)
         .filter(
@@ -116,14 +117,14 @@ export default async function ProjectsPage() {
 
                 <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-2">
                     <div className="grid grid-cols-1 gap-4">
-                        {[top4, top6].map((project) => (
+                        {[top4, top6, top8].map((project) => (
                             <Card key={project.slug}>
                                 <Article project={project} views={views[project.slug] ?? 0}/>
                             </Card>
                         ))}
                     </div>
                     <div className="grid grid-cols-1 gap-4">
-                        {[top5, top7, top8].map((project) => (
+                        {[top5, top7, top9].map((project) => (
                             <Card key={project.slug}>
                                 <Article project={project} views={views[project.slug] ?? 0}/>
                             </Card>
