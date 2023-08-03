@@ -21,16 +21,18 @@ export default async function ProjectsPage() {
     }, {} as Record<string, number>);
 
     const featured = allProjects.find(
-        (project) => project.slug === "Pinata-Connection",
+        (project) => project.slug === "hypeRoot",
     )!;
-    const top2 = allProjects.find((project) => project.slug === "RepoRadar")!;
-    const top3 = allProjects.find((project) => project.slug === "PAN-Card-Verification")!;
-    const top4 = allProjects.find((project) => project.slug === "KeyWhisperer")!;
-    const top5 = allProjects.find((project) => project.slug === "intrusionX")!;
-    const top6 = allProjects.find((project) => project.slug === "EspressoFlow")!;
-    const top7 = allProjects.find((project) => project.slug === "WhereaboutsWiz")!;
-    const top8 = allProjects.find((project) => project.slug === "WeatherWhisperer")!;
-    const top9 = allProjects.find((project) => project.slug === "CyberTunnel")!;
+    const top2 = allProjects.find((project) => project.slug === "Pinata-Connection")!;
+    const top3 = allProjects.find((project) => project.slug === "RepoRadar")!;
+    const top4 = allProjects.find((project) => project.slug === "LazyLights")!;
+    const top5 = allProjects.find((project) => project.slug === "PAN-Card-Verification")!;
+    const top6 = allProjects.find((project) => project.slug === "KeyWhisperer")!;
+    const top7 = allProjects.find((project) => project.slug === "intrusionX")!;
+    const top8 = allProjects.find((project) => project.slug === "EspressoFlow")!;
+    const top9 = allProjects.find((project) => project.slug === "WhereaboutsWiz")!;
+    const top10 = allProjects.find((project) => project.slug === "WeatherWhisperer")!;
+    const top11 = allProjects.find((project) => project.slug === "CyberTunnel")!;
     const sorted = allProjects
         .filter((p) => p.published)
         .filter(
@@ -115,16 +117,23 @@ export default async function ProjectsPage() {
                 </div>
                 <div className="hidden w-full h-px md:block bg-zinc-800"/>
 
-                <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-2">
+                <div className="grid grid-cols-1 gap-4 mx-auto lg:mx-0 md:grid-cols-3">
                     <div className="grid grid-cols-1 gap-4">
-                        {[top4, top6, top8].map((project) => (
+                        {[top5, top4].map((project) => (
                             <Card key={project.slug}>
                                 <Article project={project} views={views[project.slug] ?? 0}/>
                             </Card>
                         ))}
                     </div>
                     <div className="grid grid-cols-1 gap-4">
-                        {[top5, top7, top9].map((project) => (
+                        {[top8, top6, top10].map((project) => (
+                            <Card key={project.slug}>
+                                <Article project={project} views={views[project.slug] ?? 0}/>
+                            </Card>
+                        ))}
+                    </div>
+                    <div className="grid grid-cols-1 gap-4">
+                        {[top9, top7, top11].map((project) => (
                             <Card key={project.slug}>
                                 <Article project={project} views={views[project.slug] ?? 0}/>
                             </Card>
