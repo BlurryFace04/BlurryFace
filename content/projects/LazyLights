@@ -1,0 +1,8 @@
+---
+title: LazyLights
+description: LazyLights is a Raspberry Pi based home automation system. Control your appliances via hand gestures, voice control, a web interface, or a dedicated keyboard using integrated technologies like OpenCV, MediaPipe, Flask, and AutoHotkey.
+date: "2023-08-01"
+url: https://github.com/BlurryFace04/LazyLights
+published: true
+
+---
