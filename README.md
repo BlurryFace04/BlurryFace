@@ -1,7 +1,7 @@
 # Portfolio Website
 This repository contains the codebase for my personal portfolio website built using [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Contentlayer](https://www.contentlayer.dev/) and deployed to [Vercel](https://vercel.com/). The website is divided into three primary sections - Home, Projects, and Contact Me.
-
-![Screenshot (417)](https://github.com/BlurryFace04/BlurryFace/assets/64888928/2878fa94-aaeb-4487-a154-41c8c0a327f8)
+<br><br>
+![Screenshot (417)](https://github.com/BlurryFace04/BlurryFace/assets/64888928/21385318-766f-455f-baf5-bf0ce6037c79)
 
 ## Technology Stack
 * **Next.js:** A production-ready, versatile framework for building applications in React. It provides out-of-the-box support for server-side rendering, which helps improve SEO performance.
