@@ -55,7 +55,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className={`${existingClassesImage} ${styles.image}`}>
-                    <Image src="/Blurry.png" alt="Blurry Face" layout="fill" objectFit="cover" className="w-full h-auto"/>
+                    <Image src="/Blurry.png" alt="Blurry Face" width={500} height={500} className="w-full h-auto"/>
                 </div>
             </div>
             <Particles className="absolute inset-0 -z-10" quantity={100}/>
