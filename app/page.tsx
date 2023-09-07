@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import Image from "next/image";
 import styles from './styles.module.css'
 
 export default function Home() {
@@ -54,7 +55,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className={`${existingClassesImage} ${styles.image}`}>
-                    <img src="/Blurry.png" alt="Blurry Face" className="w-full h-auto"/>
+                    <Image src="/Blurry.png" alt="Blurry Face" layout="fill" objectFit="cover" className="w-full h-auto"/>
                 </div>
             </div>
             <Particles className="absolute inset-0 -z-10" quantity={100}/>
