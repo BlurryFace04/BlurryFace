@@ -28,11 +28,12 @@ export default function Home() {
                     <h2 className={`${existingClassesSubtitle} ${styles.subtitle}`}>Blockchain Developer</h2>
                     <div className="w-4/5 mx-auto flex flex-col items-center">
                         <h2 className={`${existingClassesParagraph} ${styles.paragraph}`}>
-                        Hey there! I'm Arnav, a passionate student pursuing my BTech in Computer Science at Symbiosis University of Applied Sciences
-                        and a self-taught blockchain developer. Unlike the traditional route, I've immersed myself in hands-on experiences,
-                        participating in multiple hackathons like Solana Hyperdrive, Unfold 23 by CoinDCX, and many others. My dedication and skills
-                        even led me to win the first prize in Unfold in the Sui Network - Network Effects Track. Explore my site to see the
-                        innovative projects I've been involved in!
+                        Hey there! I'm Arnav, a self-taught blockchain developer and a proud college dropout. I discovered my passion for tech away
+                        from university lectures, diving into real-world projects and self-directed learning. I've focused full-time on tackling diverse
+                        tech challenges, particularly in blockchain and AI. My site showcases the exciting projects I'm working on!
+                        I've also clinched victories in four hackathons: first prize at Unfold 23 in Sui Network's Network Effect track, a consolation
+                        prize at Solana Hyperdrive from the Dorahacks prize pool, a top 5 finish at the Polygon DevX India Hackathon, and an AI track
+                        prize at DevHack by DefiChain.
                         </h2>
                         <div
                             className="flex flex-row items-center max-w-xs mx-auto gap-5 sm:max-w-none sm:flex-row sm:inline-flex aos-init aos-animate"
