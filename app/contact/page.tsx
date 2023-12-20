@@ -19,9 +19,9 @@ const socials = [
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:arnavjain@ieee.org",
+		href: "mailto:arnav@blockto.social",
 		label: "Email",
-		handle: "arnavjain@ieee.org",
+		handle: "arnav@blockto.social",
 	},
 ];
 
